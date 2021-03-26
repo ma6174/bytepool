@@ -1,6 +1,9 @@
 # BytePool
 
-参考 [https://github.com/oxtoacart/bpool](https://github.com/oxtoacart/bpool)，但是增加了如下功能
+![Doc](https://pkg.go.dev/badge/github.com/ma6174/bytepool)
+![Go Report Card](https://goreportcard.com/badge/github.com/ma6174/bytepool)
+
+参考 [oxtoacart/bpool](https://github.com/oxtoacart/bpool)，但是增加了如下功能
 
 - 控制总的内存使用量，超过之后会等待，防止OOM
 - 为了防止超内存之后Get超时，增加了context来控制超时时间，防止死锁
